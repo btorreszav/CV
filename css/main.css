@@ -1,0 +1,47 @@
+/*
+CSS Style for Brandon Torres CV
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto:wght@300&display=swap');
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+table {
+    border-spacing: 0px;
+    height: 100%;
+    width: 100%;
+}
+thead {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+colgroup.izq {
+    background-color: #5DC1B9;
+    width: 20%;
+}
+colgroup.der {
+    background-color: #EEE;
+}
+td {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    vertical-align: middle;
+}
+li {
+  padding-top: 5px;
+}
+td.texto_de_seccion{
+  padding-left: 0;
+  text-align: center;
+}
+img.foto_cv {
+    width: 85%;
+    border-radius: 50%
+}
+img.ico {
+  width: 20px;
+  height: 20px;
+}
